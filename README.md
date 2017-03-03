@@ -11,7 +11,9 @@ To later run the program use mpirun
     mpirun -np 4 factor 14
 
 np is the number of processes desired
+
 factor is the path to your binary
+
 The final value is the number to be factored
 
 The program will output the results to stdout so you have a variety of options for collecting the output such as: piping to a file, running within a tmux/screen session, nohup, etc.
